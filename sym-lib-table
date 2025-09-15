@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BPROM")(type "KiCad")(uri "${KIPRJMOD}/BPROM.kicad_sym")(options "")(descr ""))
+)
