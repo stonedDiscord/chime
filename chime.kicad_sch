@@ -7750,6 +7750,212 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 478.79 328.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cb228fa-089f-4e00-81f1-cb3880b558d2")
+		(property "Reference" "RB5"
+			(at 478.79 322.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 478.79 325.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 478.79 330.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 478.79 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 478.79 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f103ecd2-ade9-494a-8d86-475fdfe45274")
+		)
+		(pin "1"
+			(uuid "19d0245f-3314-4d6a-be54-5d2fef92304b")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "RB5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 273.05 318.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cbe4172-edcb-4cf3-b9f5-8219e0b6d171")
+		(property "Reference" "C8"
+			(at 276.86 316.6109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 276.86 319.1509 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+			(at 274.0152 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 273.05 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0099f4b4-2442-49e5-99ee-a1579907d97c")
+		)
+		(pin "1"
+			(uuid "9703580a-084a-442f-9a0c-cebbbb70a7a5")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 280.67 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d1c7712-47b8-4841-bf55-5b0f0b9a5c59")
+		(property "Reference" "RC22"
+			(at 280.67 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 280.67 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 280.67 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 280.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6d911f51-4a24-424e-a2d3-26717a81a654")
+		)
+		(pin "1"
+			(uuid "66849215-358d-41d7-abce-b8c9ac6433a4")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "RC22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 345.44 180.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7818,16 +8024,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 344.17 228.6 90)
+		(at 424.18 304.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0ff4a5d1-1368-4f6d-a917-a89a6f840869")
-		(property "Reference" "R5"
-			(at 344.17 222.25 90)
+		(uuid "1067464e-952f-4bc9-be80-7275a13de2dc")
+		(property "Reference" "R35"
+			(at 424.18 298.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7835,7 +8041,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 344.17 224.79 90)
+			(at 424.18 300.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7843,7 +8049,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 344.17 230.378 90)
+			(at 424.18 306.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7852,7 +8058,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 344.17 228.6 0)
+			(at 424.18 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7861,7 +8067,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 344.17 228.6 0)
+			(at 424.18 304.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7870,15 +8076,219 @@
 			)
 		)
 		(pin "2"
-			(uuid "c13862cb-cf2d-4f5f-b264-4077ab823ec0")
+			(uuid "b9713faa-2cc0-4cea-a65d-752b8b290359")
 		)
 		(pin "1"
-			(uuid "67f986aa-2376-4ce8-9643-a9d349b2632b")
+			(uuid "8d854dd8-cac6-4259-9c3c-abafc216d94a")
 		)
 		(instances
 			(project "chime"
 				(path "/52108351-6610-4202-b804-6f89c533b5f5"
-					(reference "R5")
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 386.08 298.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1126ff66-4000-4e99-9f1e-ffee41be8af4")
+		(property "Reference" "RA25"
+			(at 386.08 292.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 386.08 294.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 386.08 300.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 386.08 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 386.08 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ef4b678e-99b0-4f76-9ac2-565a60d6f434")
+		)
+		(pin "1"
+			(uuid "ec01a6e9-8a17-492e-96cf-de8d8f89f2ca")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "RA25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 491.49 349.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1172aea5-2888-4b11-a695-01d982822317")
+		(property "Reference" "RD6"
+			(at 491.49 342.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 491.49 345.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 491.49 351.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 491.49 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 491.49 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c1215fa-220d-498c-9067-81f0a2a3b7b5")
+		)
+		(pin "1"
+			(uuid "65a424b2-9389-46ef-bb15-f507c345003e")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "RD6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 447.04 314.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16df850a-34a4-48da-9d1a-243847ffbdd2")
+		(property "Reference" "R30"
+			(at 447.04 308.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 447.04 311.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 447.04 316.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 447.04 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 447.04 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0502fbd-7d3a-4d3a-a281-6eb0c9285298")
+		)
+		(pin "1"
+			(uuid "971ec995-fede-4f3d-90d9-8ded6e89e735")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -8053,6 +8463,74 @@
 			(project "chime"
 				(path "/52108351-6610-4202-b804-6f89c533b5f5"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 377.19 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1976b0f2-e68b-41a5-8e10-46e841f3b242")
+		(property "Reference" "R17"
+			(at 377.19 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 377.19 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 377.19 192.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 377.19 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04aceae8-d718-4b9e-91bd-f51b23c73c23")
+		)
+		(pin "1"
+			(uuid "3ac77d5c-58f6-471d-99ec-ca38b9d9d256")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -8611,6 +9089,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 346.71 212.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23dbdc5c-b0b3-473c-b157-5a242996aa7c")
+		(property "Reference" "R27"
+			(at 346.71 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 346.71 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 346.71 213.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 346.71 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c43a6d4f-dfcb-42e7-8cfc-d3e4f5a93ee5")
+		)
+		(pin "1"
+			(uuid "e6ec0ffd-1ae8-40de-ac7f-dd7aeb1289ae")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 149.86 234.95 0)
 		(unit 1)
@@ -8896,6 +9442,74 @@
 				(path "/52108351-6610-4202-b804-6f89c533b5f5"
 					(reference "U10")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 386.08 308.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a920bcd-c056-4304-b381-e7b5981d3731")
+		(property "Reference" "RB25"
+			(at 386.08 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 386.08 304.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 386.08 310.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 386.08 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 386.08 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dfc642ec-5444-41c4-9d92-16af557e40b1")
+		)
+		(pin "1"
+			(uuid "a4493eae-2991-4c97-8a1b-9616168aea05")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "RB25")
+					(unit 1)
 				)
 			)
 		)
@@ -9256,6 +9870,74 @@
 			(project ""
 				(path "/52108351-6610-4202-b804-6f89c533b5f5"
 					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 386.08 328.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ecab70d-f656-433b-83e6-c11ec18de400")
+		(property "Reference" "RD25"
+			(at 386.08 322.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 386.08 325.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 386.08 330.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 386.08 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 386.08 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3107d491-294d-4feb-bc66-0d561dbd0c65")
+		)
+		(pin "1"
+			(uuid "ddab878f-a8e0-4897-9f98-821e2f9d6a76")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "RD25")
 					(unit 1)
 				)
 			)
@@ -9926,6 +10608,74 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 491.49 339.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e4476a2-36cc-4d90-a875-60bca2431861")
+		(property "Reference" "RC6"
+			(at 491.49 332.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 491.49 335.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 491.49 340.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 491.49 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 491.49 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9ce6e7b2-b280-456f-ad2d-6448f659f48f")
+		)
+		(pin "1"
+			(uuid "8c816769-706a-452a-8e0d-d933db0eda51")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "RC6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 285.75 246.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9987,6 +10737,74 @@
 			(project "chime"
 				(path "/52108351-6610-4202-b804-6f89c533b5f5"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 359.41 306.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "509f085d-5b37-495b-a473-96ce78ecf5c2")
+		(property "Reference" "RB21"
+			(at 359.41 299.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 359.41 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 359.41 307.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 359.41 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 359.41 306.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc4e4dca-f701-4f63-bbcb-3b939388e738")
+		)
+		(pin "1"
+			(uuid "9d2045c2-b1b9-44a8-be6a-fb5f922720b8")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "RB21")
 					(unit 1)
 				)
 			)
@@ -10481,6 +11299,142 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 478.79 339.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55772b71-b75f-4355-9f93-644e83672a07")
+		(property "Reference" "RC5"
+			(at 478.79 332.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 478.79 335.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 478.79 340.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 478.79 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 478.79 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79f2c46d-0c63-4a0c-9b8f-e327510cca6e")
+		)
+		(pin "1"
+			(uuid "06909766-c503-4824-b258-60d3251f8c77")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "RC5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 304.8 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56382bb1-1ad0-4129-b9d1-66431d785d23")
+		(property "Reference" "R47"
+			(at 304.8 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 304.8 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 304.8 177.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 304.8 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 304.8 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "969af387-f728-4b0a-8dff-5a56a09d9960")
+		)
+		(pin "1"
+			(uuid "17a62fda-dbb2-4523-9226-d497716744ba")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 273.05 248.92 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10542,6 +11496,74 @@
 			(project "chime"
 				(path "/52108351-6610-4202-b804-6f89c533b5f5"
 					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 280.67 167.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "584025a7-a318-4e3a-bfd0-d835dad8db67")
+		(property "Reference" "RD22"
+			(at 280.67 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 280.67 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 280.67 169.418 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 280.67 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19df3b83-125f-495a-acd5-339cabc8ab97")
+		)
+		(pin "1"
+			(uuid "a0c9dae8-4d93-477d-b7a0-01490d5a73bc")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "RD22")
 					(unit 1)
 				)
 			)
@@ -10615,6 +11637,278 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 447.04 303.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f04fb0e-c79a-4e52-a389-f084ce4a24dd")
+		(property "Reference" "R29"
+			(at 447.04 297.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 447.04 299.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 447.04 305.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 447.04 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 447.04 303.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21c0aff7-7c50-40ca-83b6-dfd620803993")
+		)
+		(pin "1"
+			(uuid "985670a2-293e-4ad7-ae9b-42fcf052d41b")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 391.16 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6227c1a2-afd0-4682-b239-290f80998637")
+		(property "Reference" "R42"
+			(at 391.16 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 391.16 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 391.16 182.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 391.16 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 391.16 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a8e013f-042f-4733-903e-ff75b5bcb143")
+		)
+		(pin "1"
+			(uuid "f38ea964-5672-48a7-bdc1-68a958a4cde1")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 280.67 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64220d61-7128-4cd7-af20-fc82b402399c")
+		(property "Reference" "RA22"
+			(at 280.67 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 280.67 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 280.67 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 280.67 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a1b1c7b-b0d6-4765-b5b2-8f76f5d23367")
+		)
+		(pin "1"
+			(uuid "55d262d0-3069-4aa1-9184-51dbadcdc802")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "RA22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 420.37 289.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64b145ae-64aa-4489-856e-e060507f2ab7")
+		(property "Reference" "R59"
+			(at 420.37 283.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 420.37 285.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 420.37 291.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 420.37 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 420.37 289.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ae54c62-8ee1-481f-9f5a-bb2d0d42c20f")
+		)
+		(pin "1"
+			(uuid "590a3904-7ae8-4197-be7d-1bb0238c7aa8")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 93.98 265.43 0)
 		(unit 1)
@@ -10682,6 +11976,74 @@
 			(project "chime"
 				(path "/52108351-6610-4202-b804-6f89c533b5f5"
 					(reference "RV4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 478.79 349.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "687ea545-e759-4ec0-9521-e7c9106665be")
+		(property "Reference" "RD5"
+			(at 478.79 342.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 478.79 345.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 478.79 351.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 478.79 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 478.79 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "09e2a234-34c5-42b7-9480-71da4c7ea413")
+		)
+		(pin "1"
+			(uuid "765ec70d-9149-4a88-823c-7167fcd3fa76")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "RD5")
 					(unit 1)
 				)
 			)
@@ -10878,6 +12240,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 458.47 290.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c822c89-2f7f-4090-8d72-ee8ad1a614d3")
+		(property "Reference" "R45"
+			(at 458.47 284.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 458.47 287.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 458.47 292.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 458.47 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 458.47 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "43c5ed11-b7df-4c46-b376-516c521a1230")
+		)
+		(pin "1"
+			(uuid "bec2a747-12bd-4a3e-9066-5c9db8d05189")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 388.62 27.94 0)
 		(unit 1)
@@ -11004,6 +12434,74 @@
 			(project "chime"
 				(path "/52108351-6610-4202-b804-6f89c533b5f5"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 424.18 314.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dd61f54-ca75-47db-b0f3-86247dece565")
+		(property "Reference" "R36"
+			(at 424.18 308.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 424.18 311.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 424.18 316.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 424.18 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 424.18 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0fea3856-87a7-4e93-be4d-bd4afbc93ef1")
+		)
+		(pin "1"
+			(uuid "92c2f549-d44f-4814-9ad1-96508e48e047")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -11386,6 +12884,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 491.49 318.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79105d45-770d-48d8-927e-6520217d46a4")
+		(property "Reference" "RA6"
+			(at 491.49 312.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 491.49 314.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 491.49 320.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 491.49 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 491.49 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd6f6814-db75-44c8-8f21-fc61f2a8e183")
+		)
+		(pin "1"
+			(uuid "f62d009c-1432-4548-acb0-fad26182f50e")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "RA6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BPROM:74S472")
 		(at 149.86 215.9 0)
 		(unit 1)
@@ -11504,6 +13070,74 @@
 			(project ""
 				(path "/52108351-6610-4202-b804-6f89c533b5f5"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 359.41 295.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7984cb2b-c679-4c0a-b67a-5c618f2c941c")
+		(property "Reference" "RA21"
+			(at 359.41 289.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 359.41 292.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 359.41 297.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 359.41 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 359.41 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0d04640-bf9d-49e2-9190-1d7d329a2f30")
+		)
+		(pin "1"
+			(uuid "bf9621d0-c432-4358-b24b-e0e5fd32d109")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "RA21")
 					(unit 1)
 				)
 			)
@@ -11815,6 +13449,278 @@
 				(path "/52108351-6610-4202-b804-6f89c533b5f5"
 					(reference "U6")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 411.48 304.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8049ce02-b728-4465-8c51-a2b50aa86c2f")
+		(property "Reference" "R32"
+			(at 411.48 298.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 411.48 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 411.48 306.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 411.48 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 411.48 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d36251c4-c735-4cab-8a58-d0fe64145899")
+		)
+		(pin "1"
+			(uuid "df70c944-e143-4b48-abd7-4f9ac29b92e3")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 331.47 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "806eed96-585c-4ff5-9cd8-5fafe7e8fa0d")
+		(property "Reference" "R37"
+			(at 331.47 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 331.47 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 331.47 222.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 331.47 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 331.47 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e9fdec7d-cba7-431e-8619-1d062fd199b4")
+		)
+		(pin "1"
+			(uuid "9c71a803-07da-4c1a-bcd2-16ec6f71b591")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 359.41 316.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "847b1b94-ac0c-42ed-832f-fe15c64c6796")
+		(property "Reference" "RC21"
+			(at 359.41 309.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 359.41 312.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 359.41 318.008 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 359.41 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 359.41 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ce8e43fa-3bb9-4592-a1d5-d852984042ad")
+		)
+		(pin "1"
+			(uuid "8501a795-77b5-4e15-b49b-6afa48669896")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "RC21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 375.92 203.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85d07870-e1b9-4c42-9f0e-e5e53ea4f606")
+		(property "Reference" "R19"
+			(at 375.92 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 375.92 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 375.92 204.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 375.92 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 375.92 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1db278da-4189-40ed-9a3a-13e81fb7f02f")
+		)
+		(pin "1"
+			(uuid "15cbe80a-0513-4382-bbd1-ba1f85691e1f")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "R19")
+					(unit 1)
 				)
 			)
 		)
@@ -12765,6 +14671,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 264.16 339.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a22003e8-279e-417a-8ca8-ce20f3708c08")
+		(property "Reference" "C14"
+			(at 267.97 336.9309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Polarized"
+			(at 267.97 339.4709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 265.1252 342.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 264.16 339.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f3a13d9-2766-4376-aed3-c4420570dcdc")
+		)
+		(pin "1"
+			(uuid "d3151c1b-1776-4ddf-8e7f-f9bb0131c9f8")
+		)
+		(instances
+			(project ""
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 415.29 267.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a39787fb-48d9-4264-83b3-ff3fddd2f7a9")
+		(property "Reference" "R52"
+			(at 415.29 261.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 415.29 264.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 415.29 269.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 415.29 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 415.29 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a930130c-813d-40d2-9b0f-4f349d564d64")
+		)
+		(pin "1"
+			(uuid "fea9c11c-2c39-43cf-b91e-76409f05c10e")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 325.12 21.59 0)
 		(unit 1)
@@ -13382,6 +15426,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 386.08 318.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b32069c4-f665-4534-a987-d32cebab41e5")
+		(property "Reference" "RC25"
+			(at 386.08 312.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 386.08 314.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 386.08 320.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 386.08 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 386.08 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d26d7309-8497-48a4-8972-fa8b643a52fc")
+		)
+		(pin "1"
+			(uuid "8e0bd20e-b734-4d11-860b-cccb7bfee181")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "RC25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4xxx:4011")
 		(at 88.9 29.21 0)
 		(unit 1)
@@ -13480,6 +15592,74 @@
 			(project ""
 				(path "/52108351-6610-4202-b804-6f89c533b5f5"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 478.79 318.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b56a7d29-982f-425d-be50-5c7466858613")
+		(property "Reference" "RA5"
+			(at 478.79 312.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 478.79 314.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 478.79 320.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 478.79 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 478.79 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8b312921-78b5-4b08-bf39-11ac056c2ad6")
+		)
+		(pin "1"
+			(uuid "f904ff28-a42e-45fb-a9ec-fb0ad1e5d6bd")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "RA5")
 					(unit 1)
 				)
 			)
@@ -13690,6 +15870,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 280.67 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bba4fbfc-2fc4-4425-becb-816cbd04f8db")
+		(property "Reference" "RB22"
+			(at 280.67 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 280.67 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 280.67 149.098 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 280.67 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a464570a-63be-431e-989f-7103a885f7b4")
+		)
+		(pin "1"
+			(uuid "24e533ce-43e8-4ed1-b091-c9f67f2a8ba0")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "RB22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 242.57 274.32 0)
 		(unit 1)
@@ -13850,6 +16098,142 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 491.49 328.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c16d2e28-f48f-4ee6-8da4-16908ed09593")
+		(property "Reference" "RB6"
+			(at 491.49 322.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 491.49 325.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 491.49 330.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 491.49 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 491.49 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2029a92f-669b-40ee-90ec-d2845ccb1dfd")
+		)
+		(pin "1"
+			(uuid "7cd3884b-65fc-4eb0-bdde-a048636452b1")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "RB6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 420.37 279.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c256486c-fa38-4d3b-9017-9d1318753153")
+		(property "Reference" "R57"
+			(at 420.37 273.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 420.37 275.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 420.37 281.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 420.37 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 420.37 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad1243ab-6600-45d1-8ee0-da16800010ba")
+		)
+		(pin "1"
+			(uuid "273cb37d-8fea-4b84-abef-df5a5a8398b6")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 273.05 271.78 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13911,6 +16295,74 @@
 			(project "chime"
 				(path "/52108351-6610-4202-b804-6f89c533b5f5"
 					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 359.41 326.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3cc06a0-0a76-4dee-80c7-734a41a0bbe3")
+		(property "Reference" "RD21"
+			(at 359.41 320.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 359.41 322.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 359.41 328.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 359.41 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 359.41 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4e33d58-5c48-4cf2-9db4-542672e63991")
+		)
+		(pin "1"
+			(uuid "0661f5b3-4ffc-4c9c-9be3-3e60beddc6d3")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "RD21")
 					(unit 1)
 				)
 			)
@@ -14907,6 +17359,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 411.48 314.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7f58822-268a-4f57-a242-69c858748a5f")
+		(property "Reference" "R33"
+			(at 411.48 308.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 411.48 311.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 411.48 316.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 411.48 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 411.48 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55732236-2bb3-446a-a37b-201be6df24a1")
+		)
+		(pin "1"
+			(uuid "b092dbf7-3da0-418e-adaf-7f1f002c666a")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 247.65 325.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8086003-d36c-485a-a8f1-b7ebac759e03")
+		(property "Reference" "C15"
+			(at 251.46 322.9609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 251.46 325.5009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 248.6152 328.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 247.65 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "472145a0-99fd-4bc3-a9d2-fbc512fb02e3")
+		)
+		(pin "1"
+			(uuid "727f58bd-8819-436d-acdc-e4ddbd2efab2")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4xxx_IEEE:4024")
 		(at 58.42 29.21 0)
 		(unit 1)
@@ -14998,6 +17588,74 @@
 			(project ""
 				(path "/52108351-6610-4202-b804-6f89c533b5f5"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 391.16 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb7783ec-2fb0-4ba3-85d9-d88beda388fe")
+		(property "Reference" "R18"
+			(at 391.16 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 391.16 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 391.16 170.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 391.16 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 391.16 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "51cd84e3-9986-4d5c-9064-b8f133cf1c42")
+		)
+		(pin "1"
+			(uuid "bcb59373-e895-4a8d-9b39-b57efd96926f")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -15167,6 +17825,74 @@
 				(path "/52108351-6610-4202-b804-6f89c533b5f5"
 					(reference "U6")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 374.65 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eda9956e-95e6-49df-8701-bc61270e2e97")
+		(property "Reference" "R20"
+			(at 374.65 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 374.65 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 374.65 178.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 374.65 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "39582504-ab5f-42de-a5e3-47989fc66ead")
+		)
+		(pin "1"
+			(uuid "95e26e8a-1023-4264-ab85-75145a887e1c")
+		)
+		(instances
+			(project "chime"
+				(path "/52108351-6610-4202-b804-6f89c533b5f5"
+					(reference "R20")
+					(unit 1)
 				)
 			)
 		)
@@ -15581,16 +18307,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 344.17 236.22 90)
+		(at 393.7 264.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f2a7650d-8909-45b9-825b-5bda8654939d")
-		(property "Reference" "R6"
-			(at 344.17 229.87 90)
+		(uuid "f2ca88cc-1c2f-43fd-a4e4-7494f61d2c97")
+		(property "Reference" "R41"
+			(at 393.7 257.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15598,7 +18324,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 344.17 232.41 90)
+			(at 393.7 260.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15606,7 +18332,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 344.17 237.998 90)
+			(at 393.7 265.938 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15615,7 +18341,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 344.17 236.22 0)
+			(at 393.7 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15624,7 +18350,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 344.17 236.22 0)
+			(at 393.7 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15633,15 +18359,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a98b3e28-bfaa-476d-9586-c6ff13747fa8")
+			(uuid "7a525c67-c63a-4f98-aae8-e54ab1470ada")
 		)
 		(pin "1"
-			(uuid "ac27acde-4408-475b-807b-770715fd4657")
+			(uuid "408dda1a-ea31-4856-87a4-e7a6cd4a23dc")
 		)
 		(instances
 			(project "chime"
 				(path "/52108351-6610-4202-b804-6f89c533b5f5"
-					(reference "R6")
+					(reference "R41")
 					(unit 1)
 				)
 			)
